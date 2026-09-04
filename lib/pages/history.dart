@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+class UserHistory extends StatefulWidget {
+  const UserHistory({super.key});
+
+  @override
+  State<UserHistory> createState() => _UserHistoryState();
+}
+
+class _UserHistoryState extends State<UserHistory> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text(
+        'History Screen', 
+        style: TextStyle(
+          fontSize: 30
+        )
+      ),
+    );
+  }
+}
