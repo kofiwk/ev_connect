@@ -93,9 +93,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       ),
                       child: Text(
                         'Get Started',
-                        style: GoogleFonts.inter(
+                        style: GoogleFonts.montserrat(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
+                          color: Colors.black,
                         ),
                       ),
                     ),
